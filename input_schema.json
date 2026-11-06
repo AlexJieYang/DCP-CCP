@@ -1,0 +1,36 @@
+{
+  "citing_papers": {
+    "required_columns": [
+      "paperid",
+      "Nobel",
+      "paperyear",
+      "type",
+      "cit"
+    ],
+    "description": "Citing-paper/Nobel-paper pairs. type is DC or CC; impact plots need cit10 and text plots need title&abstract."
+  },
+  "nobel_papers": {
+    "required_columns": [
+      "paperid",
+      "paperyear",
+      "Field",
+      "cit"
+    ],
+    "description": "Unique Nobel focal papers, with Field Physics, Chemistry or Medicine."
+  },
+  "nobel_metrics": {
+    "required_columns": [
+      "paperid",
+      "paperyear",
+      "ni",
+      "nj"
+    ],
+    "description": "DCP/CCP counts keyed by Nobel paperid."
+  },
+  "hit_papers": {
+    "required_columns": [
+      "0"
+    ],
+    "description": "Paper IDs of hit papers, column named 0."
+  }
+}
