@@ -2,6 +2,8 @@
 
 Descriptive comparisons of disruptive and consolidating papers citing Nobel-related focal papers, including citation dynamics and text features.
 
+Author: Alex J. Yang · [Official Nanjing University profile](https://im.nju.edu.cn/info/1103/53391.htm)
+
 ## Install
 
 Use Python 3.11. From the repository root:
